@@ -55,12 +55,37 @@ text-align: center;
 }
 
 .header-content h1{
-    font-size:50px;
+    font-size:80px;
     margin-bottom:0;
+    color: #fff;
 }
 
+.header-content h2{
+    font-size:50px;
+    margin-bottom:0;
+    color: #fff;
+}
+
+.header-content h3{
+    font-size:30px;
+    margin-bottom:0;
+    color: #fff;
+}
+
+.header-content a{
+    font-size:30px;
+    margin-bottom:0;
+    color:#fff;
+}
+
+a:link {color: #fff}		/* 未访问的链接 */
+a:visited {color: #8f838394}	/* 已访问的链接 */
+a:hover {color: #34b3a0}	/* 鼠标移动到链接上 */
+a:active {color: #0000FF}	/* 选定的链接 */
+
+
 .header-content p{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     display:block;
     padding-bottom:2rem;
 }
