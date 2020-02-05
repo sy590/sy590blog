@@ -117,10 +117,14 @@ a:active {color: #0000FF}	/* 选定的链接 */
     left:0;
     background:#225470;
     z-index:2;
-    opacity:12;    
+    opacity:1;    
 }
 
 .page a{
     font-size: 1.5rem;
     color:#fff;
 }
+
+#lolcatImage {
+    max-width:20em
+  }
